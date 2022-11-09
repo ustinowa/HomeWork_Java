@@ -28,7 +28,7 @@ public class HomeWork_1 {
         }
 
         /*String strArr[] = str.split(" ");
-        int m1[] = new int[strArr.length];
+        int m1[] = new int[str.getBytes().length];
         for (int l = 0; l < strArr.length; l++) {
             m1[l] = Integer.parseInt(strArr[l]);
         }*/

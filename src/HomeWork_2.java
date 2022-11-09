@@ -1,15 +1,15 @@
 public class HomeWork_2 {
     public static void main(String[] args) {
         System.out.println("Задание 2");
-        String str1 = "ток";
-        String str2 = "кот";
+        String str1 = "cool";
+        String str2 = "looc";
 
         String sTmp = "";
         for (int i = str1.length()-1; i >= 0; i--) {
             sTmp = sTmp.concat(Character.toString(str1.charAt(i)));
         }
         System.out.println(sTmp);
-        if (str2==sTmp) {
+        if (str2.equals(sTmp)) {
             System.out.println("Данные строки являются вращением друг друга");
         } else {
             System.out.println("Данные строки НЕ являются вращением друг друга");
